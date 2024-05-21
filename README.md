@@ -1,9 +1,12 @@
-# digitaltwin4shibuyaCP
+# Digital Twin for Shibuya City Planner
 CityPlannerを用いた渋谷デジタルツインデータ整備
 
 
 ## 1. 対象エリア
 CityPlannerの仕様上平面投影の正方形が必須条件
+
+<img width="848" alt="スクリーンショット 2024-05-22 8 38 21" src="https://github.com/furuhashilab/digitaltwin4shibuyaCP/assets/416977/ccccdbc3-3dd0-4760-90d2-204a46613d4a">
+
 
 ### 1-1. 空間参照系
 * EPSG:3857 に統一
