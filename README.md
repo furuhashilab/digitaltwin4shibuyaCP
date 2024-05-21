@@ -1,0 +1,2 @@
+# digitaltwin4shibuyaCP
+CityPlannerを用いた渋谷デジタルツインデータ整備
