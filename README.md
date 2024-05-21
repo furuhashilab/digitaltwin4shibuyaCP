@@ -5,7 +5,7 @@ CityPlannerを用いた渋谷デジタルツインデータ整備
 ## 1. 対象エリア
 CityPlannerの仕様上平面投影の正方形が必須条件
 
-* Plan A
+* Plan A (標準地域メッシュをベースにしているため、正方形ではない。このエリアに近似した EPSG:3857 での正方形座標はこちら)
 <img width="848" alt="スクリーンショット 2024-05-22 8 38 21" src="https://github.com/furuhashilab/digitaltwin4shibuyaCP/assets/416977/ccccdbc3-3dd0-4760-90d2-204a46613d4a">
 
 ```
@@ -53,7 +53,7 @@ CityPlannerの仕様上平面投影の正方形が必須条件
 
 
 ### 1-3. BBOX
-
+* GeoJSON 
 
 ## 2. 整備すべきデータ形式
 
