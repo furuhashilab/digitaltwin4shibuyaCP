@@ -27,3 +27,6 @@ CityPlannerの仕様上平面投影の正方形が必須条件
 * GeoPackage(EPSG:3857)
 
 
+## License
+原則オープンデータを用いる
+
