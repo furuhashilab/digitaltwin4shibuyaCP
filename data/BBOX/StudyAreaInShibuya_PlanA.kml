@@ -1,0 +1,10 @@
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<Placemark id="25200">
+<name>Shibuya</name><ExtendedData></ExtendedData>
+  <Polygon>
+<outerBoundaryIs>
+  <LinearRing><coordinates>139.68098993411616,35.67097571228027
+139.68098993411616,35.64126300363202
+139.72528202455675,35.64126300363202
+139.72528202455675,35.67097571228027
+139.68098993411616,35.67097571228027</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark></Document></kml>
