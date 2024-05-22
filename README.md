@@ -8,6 +8,15 @@ CityPlannerの仕様上平面投影の正方形が必須条件
 * Plan A (標準地域メッシュをベースにしているため、正方形ではない。このエリアに近似した EPSG:3857 での正方形座標はこちら)
 <img width="600" alt="PlanA対象エリア" src="https://github.com/furuhashilab/digitaltwin4shibuyaCP/assets/416977/7a2d8635-925e-48c4-846a-6ae0ca2f2452">
 
+### 1-1. 空間参照系
+* EPSG:3857 に統一
+
+### 1-2. 地域メッシュ
+* UL,UR: 53394504 , 53394507
+* LL,LR: 53393574 , 53393577
+
+### 1-3. BBOX
+* [GeoJSON 正方形ではない](https://github.com/furuhashilab/digitaltwin4shibuyaCP/blob/main/data/BBOX/StudyAreaInShibuya_PlanA.geojson) 
 ```
 {
   "type": "FeatureCollection",
@@ -48,17 +57,16 @@ CityPlannerの仕様上平面投影の正方形が必須条件
 }
 ```
 
-
-### 1-1. 空間参照系
-* EPSG:3857 に統一
-
-### 1-2. 地域メッシュ
-* UL,UR: 53394504 , 53394507
-* LL,LR: 53393574 , 53393577
-
-
-### 1-3. BBOX
-* [GeoJSON 正方形ではない](https://github.com/furuhashilab/digitaltwin4shibuyaCP/blob/main/data/BBOX/StudyAreaInShibuya_PlanA.geojson) 
+```
+{
+"type": "FeatureCollection",
+"name": "StudyAreaInShibuya_PlanA_3857",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 15548438.845290701836348, 4256099.03733919467777 ], [ 15548438.845290701836348, 4251292.254631052725017 ], [ 15554241.536466917023063, 4251292.254631052725017 ], [ 15554241.536466917023063, 4256099.03733919467777 ], [ 15548438.845290701836348, 4256099.03733919467777 ] ] ] } }
+]
+}
+```
 
 ## 2. 整備すべきデータ形式
 
