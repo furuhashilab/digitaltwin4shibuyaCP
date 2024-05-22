@@ -56,7 +56,7 @@ CityPlannerの仕様上平面投影の正方形が必須条件
 
 
 ### 1-3. BBOX
-* GeoJSON 
+* [GeoJSON 正方形ではない](https://github.com/furuhashilab/digitaltwin4shibuyaCP/blob/main/data/BBOX/StudyAreaInShibuya_PlanA.geojson) 
 
 ## 2. 整備すべきデータ形式
 
