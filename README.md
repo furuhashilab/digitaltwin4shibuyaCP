@@ -5,8 +5,12 @@ CityPlannerを用いた渋谷デジタルツインデータ整備
 ## 1. 対象エリア
 CityPlannerの仕様上平面投影の正方形が必須条件
 
-* Plan A (標準地域メッシュをベースにしているため、正方形ではない。このエリアに近似した EPSG:3857 での正方形座標はこちら)
+* Plan A (標準地域メッシュをベースにしているため、正方形ではない。)
 <img width="600" alt="PlanA対象エリア" src="https://github.com/furuhashilab/digitaltwin4shibuyaCP/assets/416977/7a2d8635-925e-48c4-846a-6ae0ca2f2452">
+
+* Plan A (正方形版)
+<img width="600" alt="PlanA対象エリア" src="https://github.com/furuhashilab/digitaltwin4shibuyaCP/assets/416977/5acd7aca-a668-4d06-9bdb-11d9dc8d3d91">
+
 
 ### 1-1. 空間参照系
 * EPSG:3857 に統一
