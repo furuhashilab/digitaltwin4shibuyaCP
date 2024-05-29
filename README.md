@@ -28,7 +28,6 @@ CityPlannerの仕様上平面投影の正方形が必須条件
  * CentX: 15552028
  * CentY: 4254280
 
-LR → UR → UL → LL → LR
 ```
 {
 "type": "FeatureCollection",
@@ -39,6 +38,7 @@ LR → UR → UL → LL → LR
 ]
 }
 ```
+座標の記述順番: LR → UR → UL → LL → LR
 
 
 ### 1-2. 渋谷駅周辺4x4エリア
