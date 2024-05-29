@@ -30,58 +30,12 @@ CityPlannerの仕様上平面投影の正方形が必須条件
 
 ```
 {
-  "type": "FeatureCollection",
-  "features": [
- 
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": 53393596,
-        "description": null,
-        "timestamp": null,
-        "begin": null,
-        "end": null,
-        "altitudeMode": null,
-        "tessellate": -1,
-        "extrude": 0,
-        "visibility": 1,
-        "drawOrder": null,
-        "icon": null
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              139.7125,
-              35.6583333333,
-              100
-            ],
-            [
-              139.7125,
-              35.6666666667,
-              100
-            ],
-            [
-              139.7,
-              35.6666666667,
-              100
-            ],
-            [
-              139.7,
-              35.6583333333,
-              100
-            ],
-            [
-              139.7125,
-              35.6583333333,
-              100
-            ]
-          ]
-        ]
-      }
-    }
-  ]
+"type": "FeatureCollection",
+"name": "mesh53393596_epsg3857",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "53393596", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 1, "drawOrder": null, "icon": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 15552724, 4253709, 100.0 ], [ 15552724, 4254851, 100.0 ], [ 15551332, 4254851, 100.0 ], [ 15551332, 4253709, 100.0 ], [ 15552724, 4253709, 100.0 ] ] ] } }
+]
 }
 ```
 
