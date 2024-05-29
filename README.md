@@ -8,6 +8,8 @@ CityPlannerの仕様上平面投影の正方形が必須条件
 
 ### 1-1. 渋谷駅北西エリア(53393596)
 
+<img width="600" alt="スクリーンショット 2024-05-29 10 17 15" src="https://github.com/furuhashilab/digitaltwin4shibuyaCP/assets/416977/31b2e43a-aad2-485b-af50-cf29a58d2175">
+
 #### 53393596
  * X幅: 約 1.4 km (1,392m)
  * Y幅: 約 1.0 km (1,142m)
