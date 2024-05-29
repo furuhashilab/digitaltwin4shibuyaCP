@@ -9,7 +9,62 @@ CityPlannerの仕様上平面投影の正方形が必須条件
 ### 1-1. 渋谷駅北西エリア(53393596)
 
 
-
+```
+{
+  "type": "FeatureCollection",
+  "features": [
+ 
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": 53393596,
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.7125,
+              35.6583333333,
+              100
+            ],
+            [
+              139.7125,
+              35.6666666667,
+              100
+            ],
+            [
+              139.7,
+              35.6666666667,
+              100
+            ],
+            [
+              139.7,
+              35.6583333333,
+              100
+            ],
+            [
+              139.7125,
+              35.6583333333,
+              100
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
+```
 
 
 ### 1-2. 渋谷駅周辺4x4エリア
