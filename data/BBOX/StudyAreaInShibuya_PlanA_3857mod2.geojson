@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "StudyAreaInShibuya_PlanA_3857",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 15548440, 4256600. ], [ 15554240, 4256600 ], [ 15554240, 4250800 ], [ 15548440, 4250800 ], [ 15548440, 4256600 ] ] ] } }
+]
+}
