@@ -1,9 +1,18 @@
 # Digital Twin for Shibuya City Planner
 CityPlannerを用いた渋谷デジタルツインデータ整備
 
+---
 
 ## 1. 対象エリア
 CityPlannerの仕様上平面投影の正方形が必須条件
+
+### 1-1. 渋谷駅北西エリア(53393596)
+
+
+
+
+
+### 1-2. 渋谷駅周辺4x4エリア
 
 * Plan A (標準地域メッシュをベースにしているため、正方形ではない。)
 <img width="600" alt="PlanA対象エリア" src="https://github.com/furuhashilab/digitaltwin4shibuyaCP/assets/416977/7a2d8635-925e-48c4-846a-6ae0ca2f2452">
