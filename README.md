@@ -1,6 +1,8 @@
 # Digital Twin for Shibuya City Planner
 CityPlannerを用いた渋谷デジタルツインデータ整備
 
+**[＞整備データ](https://github.com/furuhashilab/digitaltwin4shibuyaCP/tree/main/data)**
+
 ---
 
 ## 1. 対象エリア
