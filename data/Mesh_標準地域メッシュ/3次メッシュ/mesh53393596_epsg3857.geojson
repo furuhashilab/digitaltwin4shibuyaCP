@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "mesh53393596_epsg3857",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "53393596", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 1, "drawOrder": null, "icon": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 15552724.357455233111978, 4253709.837344693019986, 100.0 ], [ 15552724.357455233111978, 4254851.624514520168304, 100.0 ], [ 15551332.863820316269994, 4254851.624514520168304, 100.0 ], [ 15551332.863820316269994, 4253709.837344693019986, 100.0 ], [ 15552724.357455233111978, 4253709.837344693019986, 100.0 ] ] ] } }
+]
+}
